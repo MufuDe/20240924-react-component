@@ -1,19 +1,19 @@
-function Profile() {
-  return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
+import Profile from "./component/Profile";
+import TodoList from "./component/TodoList";
 
 export default function Gallery() {
   return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
+    <>
+      <section>
+        <h1>Amazing scientists</h1>
+        <Profile />
+        <Profile />
+        <Profile />
+      </section>
+      <section>
+        <h1>TodoList</h1>
+        <TodoList />
+      </section>
+    </>
   );
 }
