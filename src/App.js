@@ -1,6 +1,7 @@
 import List from "./component/List";
 import PackingList from "./component/PackingList";
 import Profile from "./component/Profile";
+import TeaSet from "./component/TeaSet";
 import TodoList from "./component/TodoList";
 
 export default function Gallery() {
@@ -23,6 +24,10 @@ export default function Gallery() {
       <section>
         <h1>List</h1>
         <List />
+      </section>
+      <section>
+        <h1>TeaSet</h1>
+        <TeaSet />
       </section>
     </>
   );
